@@ -43,10 +43,11 @@ public class CommunityPlaceableElement : CommunityAssetElement
 
 // {
 //     ...
+//     "Assets": [ ... ]
 //     "IsInteractable": false,
 //     "ColliderBoundsBound": {
-//     "m_Center": { "x": 0.5, "y": 0.25, "z": 0.5 },
-//     "m_Extent": { "x": 0.5, "y": 0.25, "z": 0.5 }
+//         "m_Center": { "x": 0.5, "y": 0.25, "z": 0.5 },
+//         "m_Extent": { "x": 0.5, "y": 0.25, "z": 0.5 }
 //     },
 //     "Icon": { ... }
 // }
