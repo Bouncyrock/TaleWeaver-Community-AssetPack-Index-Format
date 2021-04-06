@@ -107,7 +107,8 @@ public class CommunityIconElement
     public Rect Region; 
 }
 
-// note: the region values are normalize with respect to the size of the image
+// note: the index is the index into the IconsAtlases info
+// note: the region values are normalized with respect to the size of the image
 //
 // {
 //     "AtlasIndex": 2,
