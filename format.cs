@@ -57,13 +57,15 @@ public class CommunityCreatureElement : CommunityAssetElement
     public CommunityAssetLoaderData MiniAsset;
     public CommunityAssetLoaderData BaseAsset;
     public float DefaultScale;
+    public CommunityIconElement Icon;
 }
 
 // {
 //     ...
 //     "MiniAsset": { ... },
 //     "BaseAsset": { ... },
-//     "DefaultScale": 1.0
+//     "DefaultScale": 1.0,
+//     "Icon": { ... }
 // }
 
 public class CommunityMusicElement : CommunityAssetElement
@@ -104,7 +106,7 @@ public class CommunityLoaderData
 public class CommunityIconElement
 {
     public int AtlasIndex;
-    public Rect Region; 
+    public Rect Region;
 }
 
 // note: the index is the index into the IconsAtlases info
